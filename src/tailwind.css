@@ -95,7 +95,7 @@
   background: #000000;
 }
 
-.natural-person-delay::-webkit-scrollbar, .secondContainer::-webkit-scrollbar{
+.natural-person-delay::-webkit-scrollbar, .secondContainer::-webkit-scrollbar, .person-delay::-webkit-scrollbar{
   width: 8px;
 }
 

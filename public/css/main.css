@@ -654,6 +654,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 264px;
 }
 
+.w-\[506px\] {
+  width: 506px;
+}
+
 .w-\[338px\] {
   width: 338px;
 }
@@ -696,10 +700,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[20px\] {
   width: 20px;
-}
-
-.w-\[506px\] {
-  width: 506px;
 }
 
 .min-w-\[50vw\] {
@@ -1139,7 +1139,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   background: #000000;
 }
 
-.natural-person-delay::-webkit-scrollbar, .secondContainer::-webkit-scrollbar{
+.natural-person-delay::-webkit-scrollbar, .secondContainer::-webkit-scrollbar, .person-delay::-webkit-scrollbar{
   width: 8px;
 }
 
