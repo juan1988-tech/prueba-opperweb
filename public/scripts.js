@@ -14,7 +14,7 @@ function primerBoton(){
 }
 
 function segundoBoton(){
-  characters.style.transform = 'translateX(-80%)';
+  characters.style.transform = 'translateX(-50%)';
   characters.style.transitionTimingFuncion = 'ease-in';
   characters.style.transitionDuration = '1s';
   graySecondButton.style.background = '#C4C4C4';
@@ -23,7 +23,7 @@ function segundoBoton(){
 }
 
 function tercerBoton(){
-  characters.style.transform = 'translateX(-160%)';
+  characters.style.transform = 'translateX(-100%)';
   characters.style.transitionTimingFuncion = 'ease-in';
   characters.style.transitionDuration = '1s';
   grayThirdButton.style.background = '#C4C4C4';

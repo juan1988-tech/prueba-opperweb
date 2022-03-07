@@ -840,6 +840,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 2.75rem;
 }
 
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1139,11 +1143,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   background: #000000;
 }
 
-.natural-person-delay::-webkit-scrollbar, .secondContainer::-webkit-scrollbar, .person-delay::-webkit-scrollbar{
+.menu__login::-webkit-scrollbar, .natural-person-delay::-webkit-scrollbar, .secondContainer::-webkit-scrollbar, .person-delay::-webkit-scrollbar{
   width: 8px;
 }
 
-.natural-person-delay::-webkit-scrollbar-thumb{
+.menu__login::-webkit-scrollbar-thumb, .natural-person-delay::-webkit-scrollbar-thumb{
   background: #C4C4C4;
   border-radius: 3.5px;
 }
@@ -1212,9 +1216,17 @@ Ensure the default browser behavior of the `hidden` attribute.
     z-index: 10;
   }
 
+  .xl\:m-0 {
+    margin: 0px;
+  }
+
   .xl\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .xl\:mt-0 {
+    margin-top: 0px;
   }
 
   .xl\:mt-\[10px\] {
@@ -1237,6 +1249,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: none;
   }
 
+  .xl\:w-\[310px\] {
+    width: 310px;
+  }
+
+  .xl\:w-\[350px\] {
+    width: 350px;
+  }
+
   .xl\:w-\[100\%\] {
     width: 100%;
   }
@@ -1249,7 +1269,19 @@ Ensure the default browser behavior of the `hidden` attribute.
     align-self: center;
   }
 
+  .xl\:overflow-y-scroll {
+    overflow-y: scroll;
+  }
+
   .xl\:pt-0 {
     padding-top: 0px;
+  }
+
+  .xl\:pl-\[100px\] {
+    padding-left: 100px;
+  }
+
+  .xl\:pb-8 {
+    padding-bottom: 2rem;
   }
 }

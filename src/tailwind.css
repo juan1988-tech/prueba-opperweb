@@ -95,11 +95,12 @@
   background: #000000;
 }
 
-.natural-person-delay::-webkit-scrollbar, .secondContainer::-webkit-scrollbar, .person-delay::-webkit-scrollbar{
+.menu__login::-webkit-scrollbar, .natural-person-delay::-webkit-scrollbar, .secondContainer::-webkit-scrollbar, .person-delay::-webkit-scrollbar{
   width: 8px;
 }
 
-.natural-person-delay::-webkit-scrollbar-thumb{
+
+.menu__login::-webkit-scrollbar-thumb, .natural-person-delay::-webkit-scrollbar-thumb{
   background: #C4C4C4;
   border-radius: 3.5px;
 }
