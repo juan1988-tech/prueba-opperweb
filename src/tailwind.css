@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.form-label{
+   @apply relative w-[100%] text-sm xl:text-sm text-white font-thin mt-2 mb-[6px] xl:mb-0; 
+}
+
+.form-input{
+  @apply  relative h-height-input border-2 border-white rounded-xl bg-background-input mt-1 xl:mt-0 outline-white text-white p-4 xs:items-center xs:my-auto;
+}
+
+.sections-delay{
+  @apply bg-purple-dark-font xl:bg-black xl:w-[50vw] xl:h-[100vh] flex font-Poppins flex-col; 
+}
+
+.forms-delay{
+  @apply relative flex flex-col mx-auto my-0 max-w-sm w-[95%] xl:mt-8;
+}
+
+.characters{
+  @apply w-[508px] mx-auto mt-16;
+}
+/* .social-media{
+  @apply relative flex h-[51px] w-[100%] flex-row justify-evenly self-center px-auto max-w-sm mt-2; 
+    
+} */
+
+/* .form-button{
+  @apply block w-full h-height-input bg-pink-text rounded-xl text-purple-dark-font mt-6;
+} */
+
+.form-input::placeholder{
+  font-family: 'Archivo', sans-serif;
+  font-size: 14px;
+  color: #D8D5D9;
+}
+
+.form-input::content{
+  font-family: 'Archivo', sans-serif;
+  font-size: 14px;
+  padding-left: 3rem;
+  color: white;
+  text-indent: 2rem;
+}
+
+.radium{
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: inline-flex;
+  vertical-align: middle;
+  color: white;
+  position: relative;
+  width: 100px;
+  width: 80px;
+  margin-left: 10px;
+}
+
+
+.radium input[type="radio"]{
+  display: none;
+}
+
+.radium span{
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.47);;
+  padding-left: 1rem;
+  display: block;
+  position: absolute;
+  left: 60px;
+  top: 0px;
+}
+
+.radium span:before{
+  content: "";
+  height: 12px;
+  width: 12px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+}
+
+.radium input[type="radio"]:checked ~ span:before{
+  transform: translate(-50%, -50%) scale(1);
+}
+.sections-delay{
+  background: #000000;
+}
+
+
+.secondContainer::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.secondContainer::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+
+@media screen and (min-width:320px) {
+  .sections-delay{
+    background: linear-gradient(180deg, #CA38ED -30.11%, #000000 100%);
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .sections-delay{
+    background: linear-gradient(180deg, #000 -30.11%, #000000 100%);
+  }
+}

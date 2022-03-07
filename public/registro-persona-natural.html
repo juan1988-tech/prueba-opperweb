@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro: Persona Natural</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400&family=Poppins&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css"/>
+
+</head>
+<body class="xl:flex">
+  <section class="sections-delay xl:z-10 xs:w-[100vw] overflow-y-scroll" >
+    <figure class=" hidden xs:mt-[20px] xl:block m-4 h-[46px] w-[175px]">
+      <img src="../assets/logos/anime-yabu-logo.svg"/>
+    </figure>
+    <a href="./index.html" class="block pl-6 back-button" id="line_back" ><img class="" src="../assets/logos/line-back.svg"/></a>
+    <div class="relative xs:max-w-[278px] xs:mx-auto xs:left-0 xl:top-[0px] xs:w=[278px] xl:max-w-[278px] grid grid-rows-2 grid-flow-col items-center">
+      <img class="row-span-3 m-0" src="../assets/images/rabbit-mask.png"/>
+      <h1 class="text-white text-4xl text-center mt-1 font-black col-span-2">ようこそ!</h1>
+      <p class="italic text-white text-center -tracking-tighter font-light row-span-2 col-span-2">Bienvenidos</p>
+    </div>
+    <form class="forms-delay xl:mt-[10px] xs:mt-[10px] xl:w-[100%] xl:mx-0 xl:self-center">
+      <div class="inline-flex w-[100%] justify-around text-sm text-white font-thin">
+        <placeholder>Tipo de persona</placeholder>
+        <div class="inline-flex items-center">
+          <label class="radium">
+            <input class="bg-background-input w-[20px] h-[20px]" type="radio" checked/>
+            Natural
+            <span></span>
+          </label>
+          <label class="radium">
+            <input class="bg-background-input w-[20px] h-[20px]" type="radio" id="juridica"/>
+            Jurídica
+            <span></span>
+          </label>
+        </div>
+      </div>
+      <label class="form-label">Nombre</label>
+      <input type="text" class="form-input"/>
+      <label class="form-label">Apellido</label>
+      <input type="text" class="form-input"/>
+      <label class="form-label">Teléfono</label>
+      <input type="text" class="form-input"/>
+      <label class="form-label">Numero de identificación</label>
+      <input type="text" class="form-input"/>
+      <label class="form-label">Numero de identificación</label>
+      <input type="text" class="form-input"/>
+      <label class="form-label">Contraseña </label>
+      <input class="relative form-input" type="password" placeholder=" • • • • • • • "/> 
+      <label class="form-label">Confirmar contraseña</label>
+      <input class="relative form-input" type="password" placeholder=" • • • • • • • " /> 
+      <button class="w-full h-height-input bg-pink-text rounded-xl text-purple-dark-font mt-5 font-bold">Registrar</button>  
+    </form>
+    <div class="inline-flex w-full mx-auto mt-10">
+      <img src="../assets/logos/white-line.svg"/>
+      <p class="text-white text-sm font-extralight xs:text-center">Regístrate también con</p>
+      <img src="../assets/logos/white-line.svg"/>        
+    </div>
+    <article class="flex h-[51px] flex-row justify-evenly self-center px-auto mt-5">
+      <a href="#" class="block w-width-social h-height-social ml-0"><img src="../assets/logos/facebook-logo.svg" /></a>
+      <a href="#" class="block w-width-social h-height-social ml-5"><img src="../assets/logos/twitter-logo.svg" /></a>
+      <a href="#" class="block w-width-social h-height-social ml-5"><img src="../assets/logos/instagram-logo.svg" /></a>
+    </article>
+    <article class="mt-4">
+      <p class="font-roboto text-center text-white text-sm font-thin xl:mb-6">¿Ya estás registrado? <a href="./registro-persona-juridica.html"  class="text-pink-text">Acceder</a></p>
+    </article>
+    <div class="block text-white mx-auto mt-11 mb-2 xl:hidden"><img src="../assets/logos/home-indicator.svg"/></div> 
+  </section>
+  <section class="hidden relative justify-center xl:flex flex-col bg-purple-dark-font w-[50vw] min-w-[50vw] z-0 overflow-x-scroll snap-proximity snap-center secondContainer">
+    <article class="inline-flex characters" id="charactersDelay">
+      <img class="w-[400px] mx-auto mt-10 mr-8" src="../assets/images/first-character.png"/>
+      <img class="w-[400px] mx-auto mt-10 mr-8" src="../assets/images/second-character.png"/>  
+      <img class="w-[400px] mx-auto mt-10 mr-8" src="../assets/images/third-character.png"/>
+    </article>
+    <tile class="text-center text-white font-roboto text-7xl font-black">Anime<span class="text-purple-delay">yabu.</span></tile>
+    <p class="text-center text-white text-lg mt-7 w-[62%] font-light mx-auto">Ver anime en línea en HD, subtitulado o doblado,en tu celular o computadora.¡Animeyabu, tu portal de anime en línea!</p>
+    <div class="flex justify-center mt-6">
+      <span class="block w-[30px] h-[6px] bg-button-character rounded-sm mr-3" id="grayRectangleFirst" onclick="primerBoton()"></span>
+      <span class="block w-[30px] h-[6px] bg-button-inclicked-character rounded-sm mr-3" id="grayRectangleSecond" onclick="segundoBoton()"></span>
+      <span class="block w-[30px] h-[6px] bg-button-inclicked-character rounded-sm mr-3" id="grayRectangleThird" onclick="tercerBoton()"></span>
+    </div>
+</section>
+  <script src="./scripts.js"></script>
+</body>
+</html>
