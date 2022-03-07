@@ -650,10 +650,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 20px;
 }
 
-.h-\[60px\] {
-  height: 60px;
-}
-
 .w-\[264px\] {
   width: 264px;
 }
@@ -700,6 +696,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-\[20px\] {
   width: 20px;
+}
+
+.w-\[506px\] {
+  width: 506px;
 }
 
 .min-w-\[50vw\] {
@@ -805,6 +805,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(62 17 73 / var(--tw-bg-opacity));
 }
 
+.bg-background-form-gray {
+  background-color: rgba(255, 255, 255, 0.47);
+}
+
 .bg-pink-text {
   --tw-bg-opacity: 1;
   background-color: rgb(228 135 251 / var(--tw-bg-opacity));
@@ -822,10 +826,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-background-input {
   background-color: rgba(255, 255, 255, .47);
-}
-
-.bg-background-form-gray {
-  background-color: rgba(255, 255, 255, 0.47);
 }
 
 .pt-6 {
@@ -1139,13 +1139,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   background: #000000;
 }
 
-.secondContainer::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 4px;
+.natural-person-delay::-webkit-scrollbar, .secondContainer::-webkit-scrollbar{
+  width: 8px;
 }
 
-.secondContainer::-webkit-scrollbar-thumb:active {
-  background-color: #999999;
+.natural-person-delay::-webkit-scrollbar-thumb{
+  background: #C4C4C4;
+  border-radius: 3.5px;
 }
 
 @media screen and (min-width:320px) {
@@ -1158,18 +1158,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sections-delay{
     background: linear-gradient(180deg, #000 -30.11%, #000000 100%);
   }
-}
-
-.placeholder\:pl-6::-moz-placeholder {
-  padding-left: 1.5rem;
-}
-
-.placeholder\:pl-6:-ms-input-placeholder {
-  padding-left: 1.5rem;
-}
-
-.placeholder\:pl-6::placeholder {
-  padding-left: 1.5rem;
 }
 
 .placeholder\:pl-0::-moz-placeholder {

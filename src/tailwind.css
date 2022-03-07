@@ -95,16 +95,14 @@
   background: #000000;
 }
 
-
-.secondContainer::-webkit-scrollbar-thumb {
-  background: #ccc;
-  border-radius: 4px;
+.natural-person-delay::-webkit-scrollbar, .secondContainer::-webkit-scrollbar{
+  width: 8px;
 }
 
-.secondContainer::-webkit-scrollbar-thumb:active {
-  background-color: #999999;
+.natural-person-delay::-webkit-scrollbar-thumb{
+  background: #C4C4C4;
+  border-radius: 3.5px;
 }
-
 
 @media screen and (min-width:320px) {
   .sections-delay{
